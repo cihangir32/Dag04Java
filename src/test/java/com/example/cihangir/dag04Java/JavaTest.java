@@ -60,7 +60,7 @@ public class JavaTest {
 
     @Test // Annotatie
     void JavaTest5(){
-        double cijfer1 = 1.0;
+        double cijfer1 = 0.0;
         double cijfer2 = 0.0;
         System.out.println(cijfer1 / cijfer2);
     }
