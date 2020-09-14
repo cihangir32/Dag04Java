@@ -12,6 +12,7 @@ public class JavaTest {
     }
 
 
+
     @Test // Annotatie
     void JavaTest1(){
         double doubleVar1 = 1.033;
@@ -30,7 +31,6 @@ public class JavaTest {
         double difference = doubleVar1 - doubleVar2;
         boolean isGelijk = difference == 1.0;
         assertThat(difference).isEqualTo(1.0);
-
     }
 
     @Test // Annotatie
@@ -39,12 +39,31 @@ public class JavaTest {
         char char1 = 'a';
         char char2 = 'b';
         System.out.println("String test " + char1 + char2);
+    }
+
+    @Test // Annotatie
+    void Tafels() {
+        int num = 5;
+        for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+        System.out.println(" ");
+
+        int num1 = 6;
+        for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num1, i, num1 * i);
+        }
 
     }
 
-
-
-
+    @Test // Annotatie
+    void JavaTest5(){
+        double cijfer1 = 0.0;
+        double cijfer2 = 0.0;
+        System.out.println(cijfer1 / cijfer2);
+    }
 }
 
 
